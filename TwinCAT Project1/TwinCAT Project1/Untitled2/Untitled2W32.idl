@@ -1,0 +1,38 @@
+// Untitled2W32.idl : IDL source for Untitled2W32.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (Untitled2W32.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(54EDF0AC-ACDE-4456-920E-A26D15A8503A),
+
+		helpstring("IUntitled2 Interface"),
+		pointer_default(unique)
+	]
+	interface IUntitled2Ctrl : IUnknown
+	{
+	};
+
+[
+	uuid(BF6DEC14-AD1A-44a6-82E2-5913CDE2288D),
+	version(1.0),
+	helpstring("Untitled2W32 1.0 Type Library")
+]
+library UNTITLED2W32Lib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(F634CCE5-F3B1-47a9-8151-D2B004A4B8F3),
+		helpstring("Untitled2Ctrl Class")
+	]
+	coclass Untitled2Ctrl
+	{
+		[default] interface IUntitled2Ctrl;
+	};
+};

@@ -81,5 +81,8 @@
 				</Instance>
 			</Project>
 		</Plc>
+		<Cpp>
+			<Project GUID="{4CD5D2CA-CD1A-4B72-A0E1-E7BD283AAF0A}" Name="Untitled2" PrjFilePath="Untitled2\Untitled2.vcxproj" TmcFilePath="Untitled2\Untitled2.tmc"/>
+		</Cpp>
 	</Project>
 </TcSmProject>
