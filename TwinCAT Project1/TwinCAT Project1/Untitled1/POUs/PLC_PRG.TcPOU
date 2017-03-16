@@ -425,7 +425,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"EXIT"</v>
+                                        <v n="Value">"EXIT1"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">358L</v>
@@ -1657,6 +1657,93 @@ END_VAR
         </NWL>
       </Implementation>
     </Action>
+    <Transition Name="EXIT1" Id="{a45905dd-0aa2-4db8-a32c-f38545a35b2a}">
+      <Implementation>
+        <NWL>
+          <XmlArchive>
+            <Data>
+              <o xml:space="preserve" t="NWLImplementationObject">
+                <v n="NetworkListComment">""</v>
+                <v n="DefaultViewMode">"Il"</v>
+                <l2 n="NetworkList" cet="Network">
+                  <o>
+                    <v n="ILActive">true</v>
+                    <v n="FBDValid">false</v>
+                    <v n="ILValid">false</v>
+                    <l2 n="ILLines" cet="ILStatement">
+                      <o>
+                        <v n="Operator">"LD"</v>
+                        <v n="Prefix">""</v>
+                        <o n="Operand" t="Operand">
+                          <v n="Operand">"COUNTER"</v>
+                          <v n="Type">"INT"</v>
+                          <v n="Comment">""</v>
+                          <v n="SymbolComment">""</v>
+                          <v n="Address">""</v>
+                          <o n="Flags" t="Flags">
+                            <v n="Extensible">false</v>
+                            <v n="Flags">0</v>
+                            <v n="Fixed">false</v>
+                          </o>
+                          <v n="LValue">false</v>
+                          <v n="Boolean">false</v>
+                          <v n="IsInstance">false</v>
+                          <v n="Id">3L</v>
+                        </o>
+                        <v n="Postfix">""</v>
+                        <v n="Id">2L</v>
+                      </o>
+                      <o>
+                        <v n="Operator">"GT"</v>
+                        <v n="Prefix">""</v>
+                        <o n="Operand" t="Operand">
+                          <v n="Operand">"7"</v>
+                          <v n="Type">""</v>
+                          <v n="Comment">""</v>
+                          <v n="SymbolComment">""</v>
+                          <v n="Address">""</v>
+                          <o n="Flags" t="Flags">
+                            <v n="Extensible">false</v>
+                            <v n="Flags">0</v>
+                            <v n="Fixed">false</v>
+                          </o>
+                          <v n="LValue">false</v>
+                          <v n="Boolean">false</v>
+                          <v n="IsInstance">false</v>
+                          <v n="Id">5L</v>
+                        </o>
+                        <v n="Postfix">""</v>
+                        <v n="Id">4L</v>
+                      </o>
+                    </l2>
+                    <v n="Comment">""</v>
+                    <v n="Title">""</v>
+                    <v n="Label">""</v>
+                    <v n="OutCommented">false</v>
+                    <l2 n="NetworkItems" />
+                    <l2 n="Connectors" />
+                    <v n="Id">1L</v>
+                  </o>
+                </l2>
+                <v n="BranchCounter">0</v>
+                <v n="ValidIds">true</v>
+              </o>
+            </Data>
+            <TypeList>
+              <Type n="Boolean">System.Boolean</Type>
+              <Type n="Flags">{668066f2-6069-46b3-8962-8db8d13d7db2}</Type>
+              <Type n="ILStatement">{6a53a656-0ed2-439d-9798-f11da86e9f5e}</Type>
+              <Type n="Int32">System.Int32</Type>
+              <Type n="Int64">System.Int64</Type>
+              <Type n="Network">{d9a99d73-b633-47db-b876-a752acb25871}</Type>
+              <Type n="NWLImplementationObject">{25e509de-33d4-4447-93f8-c9e4ea381c8b}</Type>
+              <Type n="Operand">{c9b2f165-48a2-4a45-8326-3952d8a3d708}</Type>
+              <Type n="String">System.String</Type>
+            </TypeList>
+          </XmlArchive>
+        </NWL>
+      </Implementation>
+    </Transition>
     <Action Name="GREEN1_active" Id="{d86967a6-d720-4bf9-b55a-f87d9df479fd}">
       <Implementation>
         <NWL>
